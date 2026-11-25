@@ -1,0 +1,1 @@
+async function n(t,o){return await new Promise(e=>setTimeout(e,420)),{ok:!0,mode:"development-adapter",message:"Recorded in local development adapter (no external endpoint configured).",submittedAt:new Date().toISOString()}}export{n as s};
