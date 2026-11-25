@@ -1,0 +1,194 @@
+/* ==========================================================================
+   Tidemark Design Tokens
+   Measured from https://tidemark-template.webflow.io/style-guide & CSS vars
+   ========================================================================== */
+
+:root {
+  /* Font Family */
+  --font-primary: 'Geist', 'Geist Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Primary Brand Palette */
+  --primary-cobalt: #2463eb;
+  --primary-royal: #1c54e0;
+  --primary-sky-blue: #3b7bff;
+  --primary-deep-blue: #0a3d9a;
+  --primary-ocean: #0e5bd0;
+
+  /* Neutrals */
+  --neutral-white: #ffffff;
+  --neutral-ink: #0a1630;
+  --neutral-background: #f3f5f8;
+  --neutral-surface: #f6f8fb;
+  --neutral-navy: #1b2a4a;
+  --neutral-night: #050b1c;
+  --neutral-midnight: #050a1f;
+
+  /* Sky Tints */
+  --sky-tint: #eaf1ff;
+  --sky-sky: #cfe2ff;
+  --sky-mist: #a9cbff;
+  --sky-air: #5b9dfa;
+
+  /* Text Tokens */
+  --text-primary: var(--neutral-ink);
+  --text-secondary: rgba(10, 22, 48, 0.6);
+  --text-body: #55607a;
+  --text-muted: rgba(10, 22, 48, 0.45);
+
+  /* Alpha Tokens */
+  --ink-alpha-4: rgba(10, 22, 48, 0.04);
+  --ink-alpha-6: rgba(10, 22, 48, 0.06);
+  --ink-alpha-8: rgba(10, 22, 48, 0.08);
+  --ink-alpha-12: rgba(10, 22, 48, 0.12);
+  --ink-alpha-15: rgba(10, 22, 48, 0.15);
+  --ink-alpha-20: rgba(10, 22, 48, 0.2);
+  --ink-alpha-30: rgba(10, 22, 48, 0.3);
+  --ink-alpha-40: rgba(10, 22, 48, 0.4);
+  --ink-alpha-55: rgba(10, 22, 48, 0.55);
+  --ink-alpha-62: rgba(10, 22, 48, 0.62);
+  --ink-alpha-75: rgba(10, 22, 48, 0.75);
+
+  --white-alpha-8: rgba(255, 255, 255, 0.08);
+  --white-alpha-10: rgba(255, 255, 255, 0.1);
+  --white-alpha-12: rgba(255, 255, 255, 0.12);
+  --white-alpha-16: rgba(255, 255, 255, 0.16);
+  --white-alpha-20: rgba(255, 255, 255, 0.2);
+  --white-alpha-26: rgba(255, 255, 255, 0.26);
+  --white-alpha-32: rgba(255, 255, 255, 0.32);
+  --white-alpha-40: rgba(255, 255, 255, 0.4);
+  --white-alpha-60: rgba(255, 255, 255, 0.6);
+  --white-alpha-70: rgba(255, 255, 255, 0.7);
+  --white-alpha-80: rgba(255, 255, 255, 0.8);
+  --white-alpha-85: rgba(255, 255, 255, 0.85);
+  --white-alpha-90: rgba(255, 255, 255, 0.9);
+  --white-alpha-92: rgba(255, 255, 255, 0.92);
+
+  --cobalt-alpha-35: rgba(36, 99, 235, 0.35);
+  --cobalt-alpha-45: rgba(36, 99, 235, 0.45);
+  --deep-blue-alpha-35: rgba(10, 61, 154, 0.35);
+
+  /* Borders */
+  --border-default: rgba(10, 22, 48, 0.08);
+  --border-light: #e3e8ef;
+  --border-medium: #c9d2e0;
+  --border-quote: #e2e2e2;
+
+  /* Status Colors */
+  --status-success: #16a34a;
+  --status-success-text: #15803d;
+  --status-success-bg: #e8f7ee;
+  --status-success-tint: #e3f6ea;
+  --status-warning: #f59e0b;
+  --status-warning-text: #b45309;
+  --status-warning-bg: #fef3c7;
+  --status-error: #ef4444;
+  --status-error-text: #dc2626;
+  --status-error-bg: #fde2e2;
+  --status-error-border: #f5c2c0;
+  --status-error-tint: #fdf1f0;
+  --accent-mint: #7cf2a8;
+
+  /* Action Intent Aliases */
+  --action-primary-bg: linear-gradient(180deg, #3b7bff 0%, #1c54e0 100%);
+  --action-destructive: var(--status-error-text);
+  --action-destructive-bg: var(--status-error-bg);
+
+  /* Gradients */
+  --gradient-button: linear-gradient(180deg, #3b7bff 0%, #1c54e0 100%);
+  --gradient-panel: linear-gradient(180deg, #1e6cf0 0%, #5b9dfa 100%);
+  --gradient-night: linear-gradient(180deg, #123e9e 0%, #0a1e55 52%, #050a1f 100%);
+  --gradient-numbers: linear-gradient(90deg, #1c54e0 0%, #6aa8ff 100%);
+
+  /* Typography Scale (Desktop >= 992px) */
+  --text-display-xl: 8.25rem; /* 132px */
+  --text-display: 5.25rem; /* 84px */
+  --text-hero: 5.5rem; /* 88px */
+  --text-h1: 4rem; /* 64px */
+  --text-h2: 3.5rem; /* 56px */
+  --text-section: 3.125rem; /* 50px */
+  --text-h3: 3rem; /* 48px */
+  --text-h4: 2rem; /* 32px */
+  --text-subsection: 1.75rem; /* 28px */
+  --text-h5: 1.5rem; /* 24px */
+  --text-card-title: 1.375rem; /* 22px */
+  --text-h6: 1.125rem; /* 18px */
+  --text-large: 1.25rem; /* 20px */
+  --text-medium: 1.125rem; /* 18px */
+  --text-regular: 1rem; /* 16px */
+  --text-body-small: 0.9375rem; /* 15px */
+  --text-small: 0.875rem; /* 14px */
+  --text-caption: 0.8125rem; /* 13px */
+  --text-tiny: 0.75rem; /* 12px */
+
+  /* Layout & Spacing */
+  --container-max: 81rem; /* 1296px */
+  --padding-global: 4.5rem; /* 72px */
+  --section-padding: 7.5rem; /* 120px */
+  --section-padding-lg: 10rem; /* 160px */
+  --outer-inset: 1rem; /* 16px */
+  --gutter: 1.5rem; /* 24px */
+
+  /* Radii */
+  --radius-tag: 6px;
+  --radius-chip: 8px;
+  --radius-button: 10px;
+  --radius-small: 12px;
+  --radius-ui-card: 14px;
+  --radius-medium: 16px;
+  --radius-card-sm: 18px;
+  --radius-card: 20px;
+  --radius-panel: 24px;
+  --radius-section: 28px;
+  --radius-round: 100vw;
+
+  /* Elevation / Shadows */
+  --shadow-flat: 0 1px 2px rgba(10, 22, 48, 0.03);
+  --shadow-raised: 0 16px 40px -8px rgba(10, 61, 154, 0.18);
+  --shadow-floating: 0 30px 60px -10px rgba(10, 61, 154, 0.3);
+  --shadow-glow: 0 12px 32px rgba(36, 99, 235, 0.38);
+
+  /* Motion */
+  --ease-tidemark: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 150ms;
+  --duration-base: 200ms;
+  --duration-slow: 400ms;
+  --duration-reveal: 600ms;
+}
+
+/* Tablet (max-width: 991px) */
+@media screen and (max-width: 991px) {
+  :root {
+    --text-display-xl: 6rem; /* 96px */
+    --text-display: 4rem; /* 64px */
+    --text-hero: 4.375rem; /* 70px */
+    --text-h1: 3.25rem; /* 52px */
+    --text-h2: 2.875rem; /* 46px */
+    --text-h3: 2.5rem; /* 40px */
+    --text-h4: 1.75rem; /* 28px */
+    --text-h5: 1.375rem; /* 22px */
+    --text-regular: 1rem;
+    --padding-global: 2.5rem; /* 40px */
+    --section-padding: 5rem; /* 80px */
+    --outer-inset: 0.75rem;
+  }
+}
+
+/* Mobile (max-width: 767px) */
+@media screen and (max-width: 767px) {
+  :root {
+    --text-display-xl: 4rem; /* 64px */
+    --text-display: 2.75rem; /* 44px */
+    --text-hero: 3rem;
+    --text-h1: 2.5rem; /* 40px */
+    --text-h2: 2.25rem; /* 36px */
+    --text-h3: 2rem; /* 32px */
+    --text-h4: 1.5rem; /* 24px */
+    --text-h5: 1.25rem; /* 20px */
+    --text-regular: 1rem;
+    --padding-global: 1.25rem; /* 20px */
+    --section-padding: 4rem; /* 64px */
+    --outer-inset: 0.5rem;
+    --radius-section: 22px;
+    --radius-panel: 20px;
+  }
+}
