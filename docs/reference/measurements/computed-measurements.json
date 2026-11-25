@@ -1,0 +1,623 @@
+{
+  "/": {
+    "title": "Tidemark - Webflow HTML website template",
+    "scrollHeight": 10719,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Market Smarter.Grow Faster. Every Month.",
+    "h1FontSize": "84px",
+    "h1LineHeight": "88.2px",
+    "h1LetterSpacing": "-3.36px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/services": {
+    "title": "Services - Tidemark - Webflow HTML website template",
+    "scrollHeight": 8552,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Everything thatmoves revenue.",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/results": {
+    "title": "Results - Tidemark - Webflow HTML website template",
+    "scrollHeight": 5721,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Proof, notpromises.",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/about": {
+    "title": "About - Tidemark - Webflow HTML website template",
+    "scrollHeight": 6508,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "A growth team thatreports in revenue.",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/pricing": {
+    "title": "Pricing - Tidemark - Webflow HTML website template",
+    "scrollHeight": 4182,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Simple plans. Serious growth.",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/blog": {
+    "title": "Blog - Tidemark - Webflow HTML website template",
+    "scrollHeight": 3216,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Notes from theaccounts we run.",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/careers": {
+    "title": "Careers - Tidemark - Webflow HTML website template",
+    "scrollHeight": 5077,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Do the best workof your career.",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/contact": {
+    "title": "Contact - Tidemark - Webflow HTML website template",
+    "scrollHeight": 2207,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Let's talk growth.",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/privacy": {
+    "title": "Privacy Policy - Tidemark - Webflow HTML website template",
+    "scrollHeight": 2541,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Privacy policy",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/terms": {
+    "title": "Terms of Service - Tidemark - Webflow HTML website template",
+    "scrollHeight": 2478,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Terms of service",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/style-guide": {
+    "title": "Style Guide - Tidemark - Webflow HTML website template",
+    "scrollHeight": 20353,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Style Guide",
+    "h1FontSize": "132px",
+    "h1LineHeight": "125.4px",
+    "h1LetterSpacing": "-7.92px",
+    "navRect": null,
+    "footerHeight": 108,
+    "clocks": []
+  },
+  "/licenses": {
+    "title": "Licenses - Tidemark - Webflow HTML website template",
+    "scrollHeight": 2186,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Licenses",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/changelog": {
+    "title": "Changelog - Tidemark - Webflow HTML website template",
+    "scrollHeight": 2109,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Changelog",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/instructions": {
+    "title": "Instructions - Tidemark - Webflow HTML website template",
+    "scrollHeight": 3101,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Instructions",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/404": {
+    "title": "404 - Tidemark - Webflow HTML website template",
+    "scrollHeight": 1536,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "This page drifted out of reach.",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/services/seo-and-content": {
+    "title": "SEO and content - Tidemark - Webflow HTML website template",
+    "scrollHeight": 5961,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Search traffic that keeps compounding.",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/case-studies/northwind-coffee": {
+    "title": "Northwind Coffee - Tidemark - Webflow HTML website template",
+    "scrollHeight": 5570,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "How organic became Northwind's biggest revenue channel.",
+    "h1FontSize": "64px",
+    "h1LineHeight": "70.4px",
+    "h1LetterSpacing": "-1.92px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/team/daniel-okafor": {
+    "title": "Daniel Okafor - Tidemark - Webflow HTML website template",
+    "scrollHeight": 4953,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Daniel Okafor",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/blog/northwind-organic-search": {
+    "title": "How Northwind made organic search its biggest revenue channel - Tidemark - Webflow HTML website template",
+    "scrollHeight": 5205,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "How Northwind made organic search its biggest revenue channel",
+    "h1FontSize": "56px",
+    "h1LineHeight": "61.6px",
+    "h1LetterSpacing": "-1.68px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  },
+  "/careers/paid-social-lead": {
+    "title": "Paid Social Lead - Tidemark - Webflow HTML website template",
+    "scrollHeight": 3995,
+    "bodyFont": "Geist, sans-serif",
+    "bodySize": "16px",
+    "h1Text": "Paid Social Lead",
+    "h1FontSize": "64px",
+    "h1LineHeight": "64px",
+    "h1LetterSpacing": "-2.88px",
+    "navRect": {
+      "width": 1161,
+      "height": 45,
+      "top": 40
+    },
+    "footerHeight": 630,
+    "clocks": [
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      },
+      {
+        "cls": "footer_studio-time",
+        "text": "09:00",
+        "attrs": [
+          "class=footer_studio-time"
+        ]
+      }
+    ]
+  }
+}
