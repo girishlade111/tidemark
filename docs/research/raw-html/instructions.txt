@@ -1,0 +1,89 @@
+Tidemark
+ Home
+ Services
+ Results
+ About
+ Pricing
+ Blog
+ Contact us
+ Last updated: 7 November 2026
+ Instructions
+ How to edit this template, from the CMS to colors, fonts, forms and interactions.
+ On this page
+ 01
+ CMS collections
+ 02
+ Variables and colors
+ 03
+ Fonts
+ 04
+ Interactions
+ 05
+ Forms
+ 06
+ Images
+ 07
+ Custom code
+ 08
+ Licenses and support
+ Tidemark uses Client-First class naming, components for the Navbar, Footer and CTA, and Variables for every repeated value. This guide covers what to edit after you duplicate the template.
+ 01
+ CMS collections
+ Five CMS collections power the dynamic pages: Blog Posts, Case Studies, Jobs, Services and Team Members. Open the CMS panel to add, edit or remove items. Each template page takes its SEO title and meta description from the item, so new items need no extra setup.
+ To feature a blog post at the top of the Blog page, switch on its Featured field. Only one featured post shows at a time.
+ 02
+ Variables and colors
+ Every color, font size, spacing value and radius is a Variable. Open the Variables panel to change a value once and update it across the whole site.
+ The Base collection holds the brand colors. The Color Scheme collection has Base, Dark and Brand modes for sections. Typography and Spacing have Tablet and Mobile modes, so sizes scale down on smaller screens.
+ 03
+ Fonts
+ Tidemark uses Geist, licensed under the SIL Open Font License 1.1. To use another font, add it in Site settings under Fonts, then select it on the Body (All Pages) tag and the heading tags in the Style panel.
+ 04
+ Interactions
+ All animations are built with Webflow Interactions in the Designer, with no custom JavaScript. Open the Interactions panel to edit the scroll reveals, the testimonial switcher, the FAQ accordions and the table of contents highlight on the legal pages.
+ 05
+ Forms
+ The contact, job application and newsletter forms are native Webflow forms with custom success and error messages. Submissions are sent to the email address in Site settings under Forms. Change it to your own address before you publish.
+ 06
+ Images
+ All images are WebP files under 150 KB, stored in this project. To swap one, select the image and choose a new file in its settings, then write alt text that describes what it shows.
+ 07
+ Custom code
+ The only custom code is a noindex meta tag in the head of the Privacy, Terms, Style Guide, Licenses, Changelog and Instructions pages, so search engines skip them. You can find it in Page settings under Custom code. Remove it if you want one of these pages indexed.
+ 08
+ Licenses and support
+ Font, image and icon licenses are listed on the Licenses page. For help with this template, email hello@fluxory.studio.
+ Tidemark
+ Still thinking it over? Say hello.
+ hello@tidemark.co
+ Services
+ /
+ Results
+ /
+ Pricing
+ /
+ Journal
+ /
+ Careers
+ /
+ Contact
+ Get The Monthly Tide:
+ Thanks! You are on the list for The Monthly Tide.
+ Something went wrong. Please try again.
+ London
+ 09:00
+ Mon to Fri, 9 to 6
+ New York
+ 09:00
+ Mon to Fri, 9 to 6
+ ↑
+ Back to top
+ © 2026 Tidemark | Powered by Webflow
+ | Created by Fluxory Studio
+ Privacy
+ Terms
+ 404
+ Style Guide
+ Licenses
+ Changelog
+ Instructions

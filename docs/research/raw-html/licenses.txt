@@ -1,0 +1,71 @@
+Tidemark
+ Home
+ Services
+ Results
+ About
+ Pricing
+ Blog
+ Contact us
+ Last updated: 1 October 2026
+ Licenses
+ The fonts, images and icons used in this template, and how each one is licensed.
+ On this page
+ 01
+ Fonts
+ 02
+ Images
+ 03
+ Icons
+ 04
+ Webflow build
+ All graphical assets in this template are licensed for personal and commercial use. If you&#x27;d like to use a specific asset, please check the license below.
+ 01
+ Fonts
+ Tidemark uses Geist by Vercel
+, licensed under the SIL Open Font License 1.1
+. It is free for personal and commercial use.
+ 02
+ Images
+ All photos and illustrations are created for Tidemark and licensed for use in websites built with this template. Replace them with your own before going live if you prefer.
+ 03
+ Icons
+ Interface icons come from Lucide
+ (ISC License) and Mynaui Icons
+ (MIT License), both free for personal and commercial use. The Tidemark logo and the partner logos are original, fictional marks made for this template.
+ 04
+ Webflow build
+ The layout, components and interactions are built natively in Webflow by Fluxory Studio and are covered by the Webflow Marketplace template license.
+ Tidemark
+ Still thinking it over? Say hello.
+ hello@tidemark.co
+ Services
+ /
+ Results
+ /
+ Pricing
+ /
+ Journal
+ /
+ Careers
+ /
+ Contact
+ Get The Monthly Tide:
+ Thanks! You are on the list for The Monthly Tide.
+ Something went wrong. Please try again.
+ London
+ 09:00
+ Mon to Fri, 9 to 6
+ New York
+ 09:00
+ Mon to Fri, 9 to 6
+ ↑
+ Back to top
+ © 2026 Tidemark | Powered by Webflow
+ | Created by Fluxory Studio
+ Privacy
+ Terms
+ 404
+ Style Guide
+ Licenses
+ Changelog
+ Instructions

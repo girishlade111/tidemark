@@ -1,0 +1,863 @@
+Tidemark
+ Webflow template
+ v1.0 · November 2026
+ Design system
+ Style Guide
+ Every font, colour, component and rule behind the Tidemark template. Edit the variables and classes here and the whole site follows.
+ 01
+ Typography
+ 02
+ Colour
+ 03
+ Buttons
+ 04
+ Icons
+ 05
+ Spacing &amp; layout
+ 06
+ Components
+ 07
+ Images
+ 08
+ Interactions
+ 09
+ Responsive
+ 1
+ Typeface · Geist
+ 4
+ Font weights
+ 18
+ Colour tokens
+ 3
+ Colour modes
+ 3
+ Breakpoints
+ 01 · Typography
+ Typography
+ One typeface, four weights. Tight negative tracking on headings, generous line height on body. Every size lives in the Typography variable collection and scales down on tablet and mobile.
+ Typeface
+ Aa
+ Geist
+ Free on Google Fonts, used for every heading, body line, label and number. Change it once in the Font / Primary variable.
+ Market smarter.
+ Bold · 700
+ Headings, display, big numbers
+ Market smarter.
+ SemiBold · 600
+ Buttons, card titles, table values
+ Market smarter.
+ Medium · 500
+ Labels, navigation, captions
+ Market smarter.
+ Regular · 400
+ Body copy, descriptions
+ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 £$€%&amp;@#?!
+ Class
+ Sample
+ Size · Weight
+ Display XL
+ heading-style-display-xl
+ Let’s go higher.
+ 132px · Bold
+ 96% line · -6% tracking
+ Display
+ heading-style-display
+ Market Smarter.
+ 84px · Bold
+ 106% line · -4% tracking
+ Heading 1
+ heading-style-h1
+ Four ways we move.
+ 64px · Bold
+ 100% line · -4.5% tracking
+ Heading 2
+ heading-style-h2
+ Simple pricing.
+ 56px · Bold
+ 106% line · -4% tracking
+ Heading 3
+ heading-style-h3
+ One growth engine.
+ 48px · Bold
+ 118% line · -3.5% tracking
+ Heading 4
+ heading-style-h4
+ Tidemark talks revenue.
+ 32px · SemiBold
+ 128% line · -2.5% tracking
+ Heading 5
+ heading-style-h5
+ Growth plan
+ 24px · Bold
+ 120% line · -2% tracking
+ Heading 6
+ heading-style-h6
+ Revenue by channel
+ 18px · SemiBold
+ 135% line · -1% tracking
+ Text Large
+ text-size-large
+ Growth that compounds, month after month.
+ 20px · Regular
+ 150% line · 0% tracking
+ Text Medium
+ text-size-medium
+ SEO, paid media and content for growth brands.
+ 18px · Regular
+ 155% line · 0% tracking
+ Text Regular
+ text-size-regular
+ Every channel is tied to revenue, and budget follows what works.
+ 16px · Regular
+ 155% line · 0% tracking
+ Text Small
+ text-size-small
+ Search is returning 5.2× vs 3.9× on Meta.
+ 14px · Regular
+ 150% line · 0% tracking
+ Text Tiny
+ text-size-tiny
+ 1 Sep · £5k · Week 4
+ 12px · Regular
+ 130% line · 0% tracking
+ Eyebrow
+ text-style-eyebrow
+ Day 14 · Growth plan
+ 12px · SemiBold
+ 130% line · +8% tracking
+ Accent words
+ Highlight one to three words per headline with text-color-accent on light sections or text-color-sky on blue.
+ Measure
+ Keep body copy 45 to 75 characters wide. Lead paragraphs max 600px.
+ Numbers
+ Big stats use Bold with tight tracking, paired with a 14px Medium caption.
+ Alignment
+ Centre for hero and CTA moments. Left align everything else.
+ 02 · Colour
+ Colour
+ A cobalt and sky palette on clean neutrals. Every swatch below is a variable, so editing the variable updates the swatch and the whole site.
+ Primary
+ 4 tokens
+ Cobalt
+ #2463EB
+ AA 5.2
+ Links, accents, active states
+ Royal
+ #1C54E0
+ AA 6.2
+ Gradient end, hover and pressed
+ Sky Blue
+ #3B7BFF
+ AA 4.7
+ Gradient start, glows
+ Deep Blue
+ #0A3D9A
+ AA 9.8
+ Shadows, overlays on photos
+ Neutrals
+ 4 tokens
+ Ink
+ #0A1630
+ AA 17.9
+ Headings, body text, dark buttons
+ Background
+ #F3F5F8
+ AA 16.4
+ Page and alternate sections
+ Surface
+ #F6F8FB
+ AA 16.9
+ Inputs, table headers, chips
+ White
+ #FFFFFF
+ AA 17.9
+ Cards, panels, text on blue
+ Sky tints
+ 4 tokens
+ Tint
+ #EAF1FF
+ AA 15.8
+ Icon chips, selected states
+ Sky
+ #CFE2FF
+ AA 13.7
+ Accent words on blue
+ Mist
+ #A9CBFF
+ AA 10.8
+ Charts, secondary data
+ Air
+ #5B9DFA
+ AA 6.5
+ Charts, gradient end
+ Status
+ 6 tokens
+ Success
+ #16A34A
+ AA 5.4
+ Positive change, live dots
+ Success Text
+ #15803D
+ AA 5.0
+ Text on success background
+ Success BG
+ #E8F7EE
+ AA 16.2
+ Delta badges, status pills
+ Warning
+ #F59E0B
+ AA 8.4
+ Ratings, testing status
+ Warning BG
+ #FEF3C7
+ AA 16.1
+ Testing pill background
+ Error
+ #EF4444
+ AA 4.8
+ Notification dots, errors
+ Gradients
+ 4 gradients
+ Button
+ #3B7BFF to #1C54E0 · 180°
+ Primary buttons, toggles
+ Panel
+ #1E6CF0 to #5B9DFA · 180°
+ Dashboard frame, feature panels
+ Night
+ #123E9E to #0A1E55 to #050A1F
+ Footer night sky
+ Numbers
+ #1C54E0 to #6AA8FF · 90°
+ Hero metrics
+ Aa Growth
+ Primary text
+ text-color-primary · Ink
+ Aa Growth
+ Secondary text
+ text-color-secondary · Ink 60%
+ Aa Growth
+ Muted text
+ text-color-muted · Ink 45%
+ Borders
+ Border / Default · Ink 8%
+ Aa Growth
+ Accent text
+ text-color-accent · Cobalt
+ 03 · Buttons
+ Buttons
+ Five button types share one shape language: 10px radius for UI, full pill on marketing moments. 16px SemiBold labels and a 200ms ease-out on every state.
+ Types × states
+ Classes: button + is-secondary, is-dark, is-ghost, is-glass, is-disabled
+ Default
+ Hover
+ Pressed
+ Disabled
+ Primary
+ Main call to action
+ Get a growth audit
+ Get a growth audit
+ Get a growth audit
+ Get a growth audit
+ Secondary
+ Paired with primary
+ Get a growth audit
+ Get a growth audit
+ Get a growth audit
+ Get a growth audit
+ Dark
+ On light sections
+ Get a growth audit
+ Get a growth audit
+ Get a growth audit
+ Get a growth audit
+ Ghost
+ Low emphasis
+ Get a growth audit
+ Get a growth audit
+ Get a growth audit
+ Get a growth audit
+ Glass
+ On sky and blue panels
+ Get a growth audit
+ Get a growth audit
+ Get a growth audit
+ Get a growth audit
+ Button component
+ Components panel · Global · Button. Variants: Primary, Secondary, Dark, Ghost, Glass. Props: Text, Link, Show icon.
+ Get a growth audit
+ Sizes
+ Get started
+ Large · 56px · 28/18 padding
+ Get started
+ Medium · 48px · 22/14 padding
+ Get started
+ Small · 36px · 14/9 padding
+ Pill &amp; icon buttons
+ Explore services
+ Circles 48 to 64px · classes icon-button + is-cobalt, is-outline-large, is-play, is-dark-large
+ Text links
+ View all
+ All case studies
+ Book 20 minutes with Mara
+ Classes text-link + is-dark, is-underline. Hover shifts colour in 200ms.
+ 04 · Icons
+ Icons
+ Lucide outline icons at a 1.6px stroke with rounded caps and joins. Every icon is an SVG in the Icons asset folder, ready in ink, cobalt and white.
+ Dashboard sidebar
+ 11 icons
+ Used in the dashboard mockup
+ layout-dashboard
+ chart-column
+ megaphone
+ target
+ users
+ search
+ image
+ file-text
+ plug
+ settings
+ circle-help
+ Interface
+ 17 icons
+ bell
+ sparkles
+ download
+ calendar
+ chevron-down
+ chevron-right
+ ellipsis
+ command
+ check
+ plus
+ minus
+ x
+ clock
+ globe
+ shield-check
+ message-circle
+ mouse-pointer-click
+ Arrows &amp; data
+ 12 icons
+ arrow-left
+ arrow-right
+ arrow-up
+ arrow-up-right
+ trending-up
+ trending-down
+ wallet
+ zap
+ layers
+ play
+ star
+ plane
+ Contact &amp; social
+ 7 icons
+ mail
+ phone
+ moon
+ linkedin
+ instagram
+ youtube
+ twitter
+ Sizes
+ 14px
+ 16px
+ 18px
+ 20px
+ 24px
+ 14 inline · 16 cards · 18 nav · 20 to 24 features
+ Colour &amp; stroke
+ Ink
+ Cobalt
+ On blue
+ On ink
+ Stroke 1.6px · round caps · never filled
+ Containers
+ Chip 28 · r8
+ Nav 40 · r11
+ Circle 44
+ Circle 52
+ Icons sit centred with at least 6px padding
+ 05 · Spacing &amp; layout
+ Spacing &amp; layout
+ A 1440px canvas with 72px margins and a 12 column grid. Spacing follows a 4px base and sections breathe at 120px. Every value lives in the Spacing variable collection.
+ Container &amp; grid
+ container-large 1296px · 12 columns · 24px gutter · padding-global 72px
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+ 10
+ 11
+ 12
+ Spacing scale · 4px base
+ 4
+ Icon gaps
+ 8
+ Pill gaps, chips
+ 12
+ Button groups
+ 16
+ Card grid gap
+ 24
+ Card padding, gutters
+ 32
+ Large card padding
+ 48
+ Heading to content
+ 72
+ Page margins
+ 120
+ Section padding
+ Corner radius
+ 6px
+ Tags
+ 8px
+ Chips
+ 10px
+ Buttons
+ 14px
+ UI cards
+ 20px
+ Cards
+ 24px
+ Panels
+ 28px
+ Sections
+ Full
+ Pills
+ Elevation
+ Flat
+ 0 1 2 · Ink 3% · cards
+ Raised
+ 0 16 40 -8 · Deep Blue 18%
+ Floating
+ 0 30 60 -10 · Deep Blue 30%
+ Glow
+ 0 0 40 · Cobalt 45%
+ 120px
+ padding-section-medium
+ 48 to 72px
+ Heading to content
+ 16px
+ Gap between cards
+ 24 to 32px
+ Padding inside cards
+ 16px
+ Outer inset for sky panels
+ 06 · Components
+ UI components
+ Reusable pieces taken directly from the finished pages. Each one is built once as a class or component and reused everywhere.
+ Labels &amp; badges
+ Pills, deltas, statuses, ratings
+ Services
+ Section label
+ Pill · 13.5 Medium · round
+ ↗ +21.6%
+ ↘ -31%
+ Delta badges
+ Success and error tints
+ ● Scaling
+ ● Testing
+ ● Paused
+ Status pills
+ Table and campaign states
+ Most popular
+ ● Live · updated 2 min ago
+ Step 01
+ Tags
+ Plan, live and step tags
+ 4.9
+ ★★★★★
+ Reviewly · 64 reviews
+ Rating badge
+ Floating · raised shadow
+ ★★★★★
+ Rated 4.9 by 120+ growth brands
+ Review pill
+ Bottom of hero dashboard
+ Navigation
+ Hero nav on sky · dashboard sidebar items
+ Tidemark
+ Home
+ Services
+ Results
+ About
+ Pricing
+ Blog
+ Get started
+ Top navigation
+ Logo · links 15 Medium white · Get started button
+ Dashboard sidebar items
+ 40 by 40 · radius 10 · active is Tint with a Cobalt icon
+ Forms &amp; inputs
+ Fields, search, prompt, choices
+ Work email
+ jane@yourbrand.com
+ Default
+ Work email
+ jane@northwind.co
+ Focus
+ Work email
+ jane@
+ Enter a valid work email
+ Search campaigns, reports
+ ⌘K
+ Search
+ Surface fill · ⌘K hint
+ I want to double revenue from paid social by Q2
+ yourbrand.com
+ £50k/mo
+ Get my audit ↑
+ Prompt input
+ White · soft shadow · radius 16
+ 7D
+ 30D
+ 90D
+ 12M
+ £10k to £50k
+ £50k to £100k
+ £100k+
+ Toggle on / off
+ Segmented · chips · toggle · slider
+ Choices used in forms and dashboards
+ Cards
+ Data, service and step cards
+ Revenue
+ £164,906
+ ↗ +21.6%
+ vs £135.6k last period
+ KPI card
+ Radius 14 · Ink 6% border · flat
+ £
+ £40k waste found
+ Average first audit
+ Floating stat
+ White · raised shadow
+ Sun, 21 Sep
+ £6,240
+ +9% vs target
+ Chart tooltip
+ Ink · radius 10 · floating
+ Blended ROAS
+ 5.2×
+ ↗ 1.6
+ Paid search
+ Search ads built around margin, not clicks.
+ Service card
+ Radius 24 · cloud visual · white UI on top
+ Audit findings
+ !
+ £40k wasted spend found
+ !
+ 12 broken landing pages
+ ✓
+ Tracking fixed
+ ✓
+ 42 quick wins listed
+ Step 01
+ Free audit
+ We dig through every account, page and campaign to find waste and quick wins.
+ Step card
+ Visual well · step tag
+ Pricing
+ Plans, promise, comparison
+ Launch
+ 1 to 2 channels for brands getting started.
+ £2,900
+ /mo
+ Billed monthly, cancel anytime
+ Start with an audit
+ Plan card
+ White · radius 24
+ Growth
+ Popular
+ Every channel, one team, built to scale.
+ £5,900
+ /mo
+ Billed monthly, cancel anytime
+ Start with an audit
+ Featured plan
+ Cobalt fill · Popular tag
+ ✓
+ 90-day growth promise
+ Miss the targets we agree together and the next month is on us.
+ Guarantee card
+ White · Ink 6% border
+ Testimonials
+ Quote, avatars, ratings
+ &quot;Tidemark is the first agency that talks to us in revenue, not impressions.&quot;
+ Ines Moreau
+ Head of Growth, Oakline
+ Quote · Bold 30 to 54 · accent phrase in Cobalt
+ Avatar switcher
+ Active 88px with Cobalt ring · others 52px at 45%
+ 4.9
+ ★★★★★
+ Reviewly · 27 reviews
+ 5.0
+ ★★★★★
+ Ratebook · 38 reviews
+ 4.8
+ ★★★★★
+ Clientwise · 52 reviews
+ Rating badges
+ Stacked or floating
+ FAQ
+ Accordion open and closed
+ How quickly will we see results?
+ −
+ Paid media usually moves within the first 30 days. SEO and content take 3 to 6 months, then keep compounding. Your audit sets clear targets for both.
+ Accordion · open
+ Page fill · radius 16 · Cobalt minus
+ Do you lock us into a long contract?
+ +
+ Accordion · closed
+ Ink 6% divider · plus in a Page circle
+ Integration nodes
+ White circles on sky · glass labels
+ Search ads
+ Social ads
+ Storefront
+ Analytics
+ CRM
+ Email
+ 30+
+ integrations
+ Read-only
+ by default
+ 100%
+ data ownership
+ See all integrations
+ 07 · Images &amp; backgrounds
+ Images &amp; backgrounds
+ Real cloud photography is the signature. Keep skies bright and saturated, frame clouds at the edges, and leave the centre clear for type.
+ Type safe zone · keep clear
+ Hero sky
+ Cover · clouds left, right and bottom
+ Cloud crop · wide
+ Service visuals, integrations canvas
+ Cloud crop · square
+ Pricing plan, featured cards
+ Cloud crop · tower
+ Tall panels and side visuals
+ Treatments
+ Tidemark
+ Services
+ Results
+ Top shade
+ Deep Blue 45% to clear over the top 45%. Keeps nav and headlines readable.
+ Your next growth chapter.
+ Side shade
+ Cobalt 85% to clear from the text side. Used behind CTA copy and forms.
+ Blended ROAS
+ 5.2×
+ Glass on photo
+ White 80%, background blur 16, 1px white stroke.
+ Photo frames
+ Radius 20, 6px white stroke, raised shadow. Overlap in a fan.
+ Tidemark
+ Big type on sky
+ Oversized white wordmark sits in the bottom third, over the cloud bank.
+ Night sky
+ #123E9E to #0A1E55 to #050A1F with a glowing moon. Used in the footer.
+ Section backgrounds
+ Sky photo
+ Hero, CTA
+ Page
+ #F3F5F8
+ White
+ #FFFFFF
+ Cloud panel
+ Results, integrations
+ Blue panel
+ Dashboard frame
+ Night
+ Footer
+ Rhythm: Sky → Page → White → Page → Cloud panel → White → Page → Sky CTA → Night footer. Never place two photo sections back to back.
+ 08 · Interactions
+ Interactions
+ Calm, quick and physical. Hover feedback in 200ms, content reveals in 600ms, everything on one ease curve.
+ 150ms
+ Fast
+ Colour and opacity changes
+ 200ms
+ Base
+ Buttons, links, inputs
+ 400ms
+ Slow
+ Cards, accordions, tabs
+ 600ms
+ Reveal
+ Section entrances
+ 0.22, 1, 0.36, 1
+ Tidemark ease
+ Cubic bezier for all transitions
+ Off
+ Reduced motion
+ Animations skip to their end state
+ Hover states
+ Get started
+ →
+ Get started
+ Default
+ Hover
+ Button
+ Lifts 4px, Cobalt glow shadow, gradient deepens. 200ms.
+ £164,906
+ →
+ £164,906
+ Default
+ Hover
+ Card
+ Raises 8px, border turns Cobalt 35%, raised shadow. 400ms.
+ View all ↗
+ →
+ View all ↗
+ Default
+ Hover
+ Text link
+ Underline draws in under the label. 200ms.
+ →
+ Default
+ Hover
+ Image
+ Photo scales to 1.06 inside a clipped frame. 600ms ease.
+ Channels
+ →
+ Channels
+ Default
+ Hover
+ Nav and sidebar
+ Tint background, label switches to Cobalt. 150ms.
+ ↗
+ →
+ ↗
+ Default
+ Hover
+ Icon button
+ Outline fills with the Cobalt gradient, arrow turns white. 200ms.
+ Motion &amp; animation
+ Section reveal
+ Fade and rise 24px, children stagger 80ms
+ Webflow: Scroll into view
+ Hero sequence
+ Headline, prompt and dashboard rise in order
+ Webflow: Page load
+ Pricing toggle
+ Monthly and quarterly prices cross fade
+ Webflow: Click
+ Number rise
+ Figures rise into place when in view
+ Webflow: Scroll into view
+ Results filter
+ Industry chips show and hide case studies
+ Webflow: Click
+ Team card flip
+ Card turns to show the bio on hover
+ Webflow: Hover
+ Case switch
+ Arrows swap the featured case study
+ Webflow: Click
+ Accordion
+ Answer opens in 400ms, icon rotates 45°
+ Webflow: Click
+ Testimonials
+ Arrows and dots switch the quote
+ Webflow: Click
+ 09 · Responsive
+ Responsive design
+ Three Webflow breakpoints. Type and spacing step down together through variable modes, and layouts collapse from 4 to 2 to 1 columns.
+ Desktop
+ 1440px · 992 and up
+ Tablet
+ 768 to 991
+ Mobile
+ Below 768
+ Token
+ Desktop
+ Tablet
+ Mobile
+ Typography
+ Display XL
+ 132
+ 96
+ 64
+ Display L
+ 84
+ 64
+ 44
+ Heading 1
+ 64
+ 52
+ 40
+ Heading 2
+ 56
+ 46
+ 36
+ Heading 3
+ 48
+ 40
+ 32
+ Heading 4
+ 32
+ 28
+ 24
+ Heading 5
+ 24
+ 22
+ 20
+ Body M
+ 16
+ 16
+ 16
+ Layout &amp; spacing
+ Page margin
+ 72px
+ 40px
+ 20px
+ Section padding
+ 120px
+ 80px
+ 64px
+ Heading to content
+ 48px
+ 40px
+ 32px
+ Card gap / padding
+ 16 / 32
+ 16 / 32
+ 16 / 24
+ Behaviour
+ Navigation
+ Full links and CTA
+ Menu button
+ Menu button
+ Card grids
+ 3 to 4 across
+ 2 across
+ Stacked
+ Split sections
+ Side by side
+ Stacked
+ Stacked
+ Floating chips
+ Visible
+ Visible
+ Hidden
+ Stack, don&#x27;t shrink
+ Split sections stack copy first and visual second below 992px.
+ Touch targets
+ Buttons stay at least 44px tall on mobile. Nav and icon buttons are 44 by 44.
+ Keep the sky
+ Hero clouds stay full bleed. Crop the sides on mobile, never scale them down.
+ Simplify motion
+ Interactions skip to their end state when reduced motion is on.
+ Tidemark Style Guide
+ Webflow template · v1.0 · November 2026 · Styles saved as Tidemark variables
