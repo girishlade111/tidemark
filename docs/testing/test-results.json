@@ -1,10 +1,12 @@
 {
   "total": 66,
-  "passed": 31,
-  "failed": 35,
+  "passed": 65,
+  "failed": 1,
   "consoleErrors": [],
   "brokenImages": [],
-  "overflowIssues": [],
+  "overflowIssues": [
+    "mobile-390:/blog"
+  ],
   "results": [
     {
       "name": "Route /",
@@ -13,138 +15,138 @@
     },
     {
       "name": "Route /services",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=18, broken=0"
+      "passed": true,
+      "detail": "title='Services - Tidemark', imgs=18, broken=0"
     },
     {
       "name": "Route /results",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=16, broken=0"
+      "passed": true,
+      "detail": "title='Results - Tidemark', imgs=16, broken=0"
     },
     {
       "name": "Route /about",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=18, broken=0"
+      "passed": true,
+      "detail": "title='About - Tidemark', imgs=18, broken=0"
     },
     {
       "name": "Route /pricing",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=7, broken=0"
+      "passed": true,
+      "detail": "title='Pricing - Tidemark', imgs=7, broken=0"
     },
     {
       "name": "Route /blog",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=15, broken=0"
+      "passed": true,
+      "detail": "title='Blog - Tidemark', imgs=15, broken=0"
     },
     {
       "name": "Route /careers",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=7, broken=0"
+      "passed": true,
+      "detail": "title='Careers - Tidemark', imgs=7, broken=0"
     },
     {
       "name": "Route /contact",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=1, broken=0"
+      "passed": true,
+      "detail": "title='Contact - Tidemark', imgs=1, broken=0"
     },
     {
       "name": "Route /privacy",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=1, broken=0"
+      "passed": true,
+      "detail": "title='Privacy policy - Tidemark', imgs=1, broken=0"
     },
     {
       "name": "Route /terms",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=1, broken=0"
+      "passed": true,
+      "detail": "title='Terms of service - Tidemark', imgs=1, broken=0"
     },
     {
       "name": "Route /style-guide",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=3, broken=0"
+      "passed": true,
+      "detail": "title='Style Guide - Tidemark', imgs=3, broken=0"
     },
     {
       "name": "Route /licenses",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=1, broken=0"
+      "passed": true,
+      "detail": "title='Licenses - Tidemark', imgs=1, broken=0"
     },
     {
       "name": "Route /changelog",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=1, broken=0"
+      "passed": true,
+      "detail": "title='Changelog - Tidemark', imgs=1, broken=0"
     },
     {
       "name": "Route /instructions",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=1, broken=0"
+      "passed": true,
+      "detail": "title='Instructions - Tidemark', imgs=1, broken=0"
     },
     {
       "name": "Route /404",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=1, broken=0"
+      "passed": true,
+      "detail": "title='404 - Tidemark', imgs=1, broken=0"
     },
     {
       "name": "Route /services/seo-and-content",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=14, broken=0"
+      "passed": true,
+      "detail": "title='SEO and content - Tidemark', imgs=14, broken=0"
     },
     {
       "name": "Route /services/paid-search",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=14, broken=0"
+      "passed": true,
+      "detail": "title='Paid search - Tidemark', imgs=14, broken=0"
     },
     {
       "name": "Route /services/paid-social",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=14, broken=0"
+      "passed": true,
+      "detail": "title='Paid social - Tidemark', imgs=14, broken=0"
     },
     {
       "name": "Route /services/content-and-creative",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=14, broken=0"
+      "passed": true,
+      "detail": "title='Content and creative - Tidemark', imgs=14, broken=0"
     },
     {
       "name": "Route /services/lifecycle-and-cro",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=11, broken=0"
+      "passed": true,
+      "detail": "title='Lifecycle and CRO - Tidemark', imgs=11, broken=0"
     },
     {
       "name": "Route /case-studies/northwind-coffee",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=8, broken=0"
+      "passed": true,
+      "detail": "title='Northwind Coffee - Tidemark', imgs=8, broken=0"
     },
     {
       "name": "Route /case-studies/lumi-skin",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=8, broken=0"
+      "passed": true,
+      "detail": "title='Lumi Skin - Tidemark', imgs=8, broken=0"
     },
     {
       "name": "Route /case-studies/halden-health",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=8, broken=0"
+      "passed": true,
+      "detail": "title='Halden Health - Tidemark', imgs=8, broken=0"
     },
     {
       "name": "Route /case-studies/oakline",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=8, broken=0"
+      "passed": true,
+      "detail": "title='Oakline - Tidemark', imgs=8, broken=0"
     },
     {
       "name": "Route /case-studies/maison-rose",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=8, broken=0"
+      "passed": true,
+      "detail": "title='Maison Rose - Tidemark', imgs=8, broken=0"
     },
     {
       "name": "Route /case-studies/fieldbox",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=8, broken=0"
+      "passed": true,
+      "detail": "title='Fieldbox - Tidemark', imgs=8, broken=0"
     },
     {
       "name": "Route /case-studies/northrun",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=8, broken=0"
+      "passed": true,
+      "detail": "title='Northrun - Tidemark', imgs=8, broken=0"
     },
     {
       "name": "Route /team/daniel-okafor",
       "passed": true,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=7, broken=0"
+      "detail": "title='Daniel Okafor - Tidemark', imgs=7, broken=0"
     },
     {
       "name": "Route /team/clara-benet",
@@ -159,52 +161,52 @@
     {
       "name": "Route /team/mei-tanaka",
       "passed": true,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=7, broken=0"
+      "detail": "title='Mei Tanaka - Tidemark', imgs=7, broken=0"
     },
     {
       "name": "Route /team/priya-shah",
       "passed": true,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=7, broken=0"
+      "detail": "title='Priya Shah - Tidemark', imgs=7, broken=0"
     },
     {
       "name": "Route /team/elena-ruiz",
       "passed": true,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=7, broken=0"
+      "detail": "title='Elena Ruiz - Tidemark', imgs=7, broken=0"
     },
     {
       "name": "Route /team/aisha-malik",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=7, broken=0"
+      "passed": true,
+      "detail": "title='Aisha Malik - Tidemark', imgs=7, broken=0"
     },
     {
       "name": "Route /blog/northwind-organic-search",
       "passed": true,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=12, broken=0"
+      "detail": "title='How Northwind made organic search its biggest revenue channel - Tidemark', imgs=12, broken=0"
     },
     {
       "name": "Route /blog/fewer-google-ads-campaigns",
       "passed": true,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=12, broken=0"
+      "detail": "title='Why your Google Ads account needs fewer campaigns, not more - Tidemark', imgs=12, broken=0"
     },
     {
       "name": "Route /blog/creative-testing-system",
       "passed": true,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=12, broken=0"
+      "detail": "title='The creative testing system behind 30 Meta ads a month - Tidemark', imgs=12, broken=0"
     },
     {
       "name": "Route /blog/topic-map-buying-intent",
       "passed": true,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=12, broken=0"
+      "detail": "title='How to build a topic map that ranks for buying intent - Tidemark', imgs=12, broken=0"
     },
     {
       "name": "Route /blog/five-email-flows",
       "passed": true,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=12, broken=0"
+      "detail": "title='Five email flows every ecommerce brand should run - Tidemark', imgs=12, broken=0"
     },
     {
       "name": "Route /blog/one-page-cfo-report",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=12, broken=0"
+      "passed": true,
+      "detail": "title='The one page report your CFO will actually read - Tidemark', imgs=12, broken=0"
     },
     {
       "name": "Route /blog/tiktok-for-b2b",
@@ -213,37 +215,37 @@
     },
     {
       "name": "Route /careers/paid-social-lead",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=2, broken=0"
+      "passed": true,
+      "detail": "title='Paid Social Lead - Tidemark', imgs=2, broken=0"
     },
     {
       "name": "Route /careers/senior-ppc-manager",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=2, broken=0"
+      "passed": true,
+      "detail": "title='Senior PPC Manager - Tidemark', imgs=2, broken=0"
     },
     {
       "name": "Route /careers/seo-strategist",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=2, broken=0"
+      "passed": true,
+      "detail": "title='SEO Strategist - Tidemark', imgs=2, broken=0"
     },
     {
       "name": "Route /careers/content-editor",
-      "passed": false,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=2, broken=0"
+      "passed": true,
+      "detail": "title='Content Editor - Tidemark', imgs=2, broken=0"
     },
     {
       "name": "Route /careers/growth-analyst",
       "passed": true,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=2, broken=0"
+      "detail": "title='Growth Analyst - Tidemark', imgs=2, broken=0"
     },
     {
       "name": "Route /careers/client-partner",
       "passed": true,
-      "detail": "title='Tidemark | Revenue-First Growth Marketing Agency', imgs=2, broken=0"
+      "detail": "title='Client Partner - Tidemark', imgs=2, broken=0"
     },
     {
       "name": "Navigation reload & back/forward",
-      "passed": false,
+      "passed": true,
       "detail": ""
     },
     {
@@ -293,7 +295,7 @@
     },
     {
       "name": "Footer Back to top button",
-      "passed": false,
+      "passed": true,
       "detail": ""
     },
     {
@@ -313,7 +315,7 @@
     },
     {
       "name": "Contact form validation & submit",
-      "passed": false,
+      "passed": true,
       "detail": ""
     },
     {
@@ -323,8 +325,8 @@
     },
     {
       "name": "Zero horizontal overflow (all tested viewports)",
-      "passed": true,
-      "detail": "issues=[]"
+      "passed": false,
+      "detail": "issues=['mobile-390:/blog']"
     },
     {
       "name": "Zero console/page errors",
