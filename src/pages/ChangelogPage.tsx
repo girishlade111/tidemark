@@ -1,0 +1,50 @@
+import { LegalLayout, LegalSectionItem } from '@/components/legal/LegalLayout';
+
+const SECTIONS: LegalSectionItem[] = [
+  {
+    number: '01',
+    id: 'v1-0',
+    title: 'Version 1.0 (Initial React Implementation)',
+    paragraphs: [
+      'Complete multi-page React, TypeScript, and Vite reconstruction of Tidemark covering all 15 static routes and 32 dynamic CMS entries across Services, Case Studies, Team, Blog Posts, and Careers.',
+    ],
+  },
+  {
+    number: '02',
+    id: 'pages-included',
+    title: 'Pages included',
+    paragraphs: [
+      'Home, Services, Service Detail, Results, Case Study Detail, About, Team Detail, Pricing, Blog, Blog Detail, Careers, Job Detail, Contact, Privacy, Terms, Style Guide, Licenses, Changelog, Instructions, and branded 404.',
+    ],
+  },
+  {
+    number: '03',
+    id: 'cms-collections',
+    title: 'Typed data collections',
+    paragraphs: [
+      'Five structured TypeScript collections in src/data/: services.ts, caseStudies.ts, team.ts, articles.ts, and jobs.ts, paired with siteConfig.ts, pricing.ts, faqs.ts, testimonials.ts, and integrations.ts.',
+    ],
+  },
+  {
+    number: '04',
+    id: 'interactions',
+    title: 'Interactions and validation',
+    paragraphs: [
+      'Interactive dashboard timeframe switcher, monthly/quarterly pricing toggle, industry and blog category filters, radial integration hover highlights, 4-slide results carousel, 5-avatar testimonial switcher, FAQ accordions, GSAP scroll reveals with reduced-motion support, and Zod-validated forms backed by a documented development submission adapter.',
+    ],
+  },
+];
+
+export function ChangelogPage() {
+  return (
+    <LegalLayout
+      title="Changelog"
+      description="Release history for this independent Tidemark React + TypeScript implementation."
+      badge="Latest: Version 1.0"
+      subtitle="Every update to this Tidemark implementation, listed by version."
+      introNote="This changelog reflects the verified build milestones of this custom codebase."
+      sections={SECTIONS}
+      noIndex
+    />
+  );
+}
