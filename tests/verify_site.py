@@ -1,8 +1,5 @@
 import json
-import os
-import subprocess
 import sys
-import time
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
@@ -45,6 +42,12 @@ SHOT_ROUTES = [
     ("/careers/paid-social-lead", "job-detail"),
 ]
 
+def goto_settled(page, route):
+    page.goto(BASE + route, wait_until="load", timeout=20000)
+    page.locator("h1").first.wait_for(state="visible", timeout=8000)
+    page.evaluate("document.fonts.ready")
+    page.wait_for_timeout(120)
+
 def run_tests():
     results = []
     console_errors = []
@@ -64,16 +67,13 @@ def run_tests():
         page.on("console", lambda msg: console_errors.append(msg.text) if msg.type == "error" else None)
         page.on("pageerror", lambda err: console_errors.append(str(err)))
 
-        # 1. Verify all 47 routes + unknown 404
+        # 1. Verify all 47 routes + images + title + overflow
         for route in ALL_ROUTES:
-            page.goto(BASE + route, wait_until="load", timeout=20000)
-            page.evaluate("document.fonts.ready")
-            page.wait_for_timeout(150)
+            goto_settled(page, route)
             title = page.title()
-            h1_text = page.locator("h1").first.inner_text() if page.locator("h1").count() > 0 else ""
-            # Scroll to load lazy images
+            h1_text = page.locator("h1").first.inner_text()
             page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            page.wait_for_timeout(120)
+            page.wait_for_timeout(100)
             page.evaluate("window.scrollTo(0, 0)")
             imgs = page.evaluate("""() => [...document.querySelectorAll('img')].map(i => ({
                 src: i.getAttribute('src'),
@@ -85,61 +85,60 @@ def run_tests():
             overflow = page.evaluate("document.documentElement.scrollWidth > window.innerWidth")
             if overflow:
                 overflow_issues.append(f"1440:{route}")
-            record(f"Route {route}", bool(title and h1_text and not bad), f"title='{title}', imgs={len(imgs)}, broken={len(bad)}")
+            title_changed = route == "/" or title != "Tidemark | Revenue-First Growth Marketing Agency"
+            record(f"Route {route}", bool(title_changed and h1_text and not bad), f"title='{title}', imgs={len(imgs)}, broken={len(bad)}")
 
-        # Reload & History Back/Forward
-        page.goto(BASE + "/", wait_until="load")
+        # 2. Reload & History Back/Forward
+        goto_settled(page, "/")
         page.locator(".tm-header-nav a[href='/services']").click()
         page.wait_for_url("**/services")
+        page.locator("h1").first.wait_for(state="visible", timeout=5000)
         page.reload(wait_until="load")
-        ok_reload = "/services" in page.url and page.locator("h1").count() > 0
+        page.locator("h1").first.wait_for(state="visible", timeout=5000)
+        ok_reload = "/services" in page.url and "moves revenue" in page.locator("h1").inner_text().lower()
         page.go_back(wait_until="load")
+        page.locator("h1").first.wait_for(state="visible", timeout=5000)
         ok_back = page.url.rstrip("/") == BASE
         page.go_forward(wait_until="load")
+        page.locator("h1").first.wait_for(state="visible", timeout=5000)
         ok_fwd = "/services" in page.url
         record("Navigation reload & back/forward", ok_reload and ok_back and ok_fwd)
 
-        # Unknown route renders branded 404
-        page.goto(BASE + "/unknown-drift-page-xyz", wait_until="load")
+        # 3. Unknown route renders branded 404
+        goto_settled(page, "/unknown-drift-page-xyz")
         ok_404 = "drifted" in page.locator("h1").inner_text().lower()
         record("Unknown route renders 404", ok_404)
 
-        # Font verification
-        page.goto(BASE + "/", wait_until="load")
-        page.evaluate("document.fonts.ready")
+        # 4. Geist font loaded
+        goto_settled(page, "/")
         font_ok = page.evaluate("""() => {
             const loaded = [...document.fonts].filter(f => f.status === 'loaded').map(f => f.family);
             return loaded.some(f => f.toLowerCase().includes('geist'));
         }""")
         record("Geist font loaded", font_ok)
 
-        # Dashboard timeframe interaction
+        # 5. Home interactive components
         page.locator(".tm-dash-range-btn", has_text="90D").click()
         dash_ok = "£486,420" in page.locator(".tm-dash-kpi-val").first.inner_text()
         record("Dashboard timeframe toggle (90D)", dash_ok)
 
-        # Results carousel interaction
         page.locator("button[aria-label='Next case study']").click()
         carousel_ok = "02" in page.locator(".tm-carousel-num").first.inner_text() and "Lumi Skin" in page.locator(".tm-carousel-client").inner_text()
         record("Results carousel next slide", carousel_ok)
 
-        # Testimonial avatar switch
         page.locator(".tm-avatar-btn").first.click()
         test_ok = "Priya Nair" in page.locator(".tm-testimonial-author").inner_text()
         record("Testimonial avatar selection", test_ok)
 
-        # Pricing toggle interaction
         page.locator(".tm-billing-btn", has_text="Quarterly").click()
         pricing_ok = "£2,610" in page.locator(".tm-plan-price").first.inner_text()
         record("Pricing quarterly -10% toggle", pricing_ok)
 
-        # FAQ Accordion
         second_faq = page.locator(".tm-faq-trigger").nth(1)
         second_faq.click()
         faq_ok = second_faq.get_attribute("aria-expanded") == "true"
         record("FAQ accordion toggle", faq_ok)
 
-        # Final CTA form validation & submission
         page.locator(".tm-cta-form-card button[type='submit']").click()
         cta_err = page.locator(".tm-cta-status.is-error").is_visible()
         page.locator(".tm-cta-chip-input").first.fill("northwind.co")
@@ -148,79 +147,75 @@ def run_tests():
         cta_ok = page.locator(".tm-cta-status.is-success").is_visible()
         record("FinalCloudCTA validation & submit", cta_err and cta_ok)
 
-        # Footer newsletter & Back to top
         page.locator(".tm-footer-newsletter-btn").click()
         nl_err = page.locator(".tm-footer-form-msg.is-error").is_visible()
         page.locator("#footer-newsletter-email").fill("alex@northwind.co")
         page.locator(".tm-footer-newsletter-btn").click()
-        page.wait_for_timeout(450)
+        page.wait_for_timeout(500)
         nl_ok = page.locator(".tm-footer-form-msg.is-success").is_visible()
         record("Footer newsletter validation & submit", nl_err and nl_ok)
 
         page.locator(".tm-footer-top-btn").click()
-        page.wait_for_timeout(500)
+        page.wait_for_function("window.scrollY < 100", timeout=4000)
         top_ok = page.evaluate("window.scrollY < 100")
         record("Footer Back to top button", top_ok)
 
-        # Results filters
-        page.goto(BASE + "/results", wait_until="load")
+        # 6. Results filters
+        goto_settled(page, "/results")
         page.locator(".tm-filter-pill", has_text="B2B SaaS").click()
         res_filter_ok = page.locator(".tm-cs-card").count() == 1
         record("Results industry filter (B2B SaaS)", res_filter_ok)
 
-        # Blog filters
-        page.goto(BASE + "/blog", wait_until="load")
+        # 7. Blog filters
+        goto_settled(page, "/blog")
         page.locator(".tm-filter-pill", has_text="Paid social").click()
         blog_filter_ok = page.locator(".tm-blog-card").count() == 2
         record("Blog category filter (Paid social)", blog_filter_ok)
 
-        # Careers filters
-        page.goto(BASE + "/careers", wait_until="load")
+        # 8. Careers filters
+        goto_settled(page, "/careers")
         page.locator(".tm-filter-pill", has_text="Data").click()
         car_filter_ok = page.locator(".tm-job-row").count() == 1
         record("Careers team filter (Data)", car_filter_ok)
 
-        # Contact form validation & submit
-        page.goto(BASE + "/contact", wait_until="load")
-        page.locator("form button[type='submit']").first.click()
+        # 9. Contact form validation & submit
+        goto_settled(page, "/contact")
+        page.locator(".tm-form-card button[type='submit']").click()
         c_err = page.locator(".tm-form-status.is-error").is_visible()
         page.locator("#c-name").fill("Jane Cooper")
         page.locator("#c-email").fill("jane@northwind.co")
         page.locator("#c-website").fill("northwind.co")
         page.locator("#c-msg").fill("Need help scaling Google Ads")
-        page.locator("form button[type='submit']").first.click()
+        page.locator(".tm-form-card button[type='submit']").click()
         page.wait_for_timeout(550)
         c_ok = page.locator(".tm-form-status.is-success").is_visible()
         record("Contact form validation & submit", c_err and c_ok)
 
-        # Capture local screenshots at 1440x900
+        # 10. Capture local desktop screenshots
         for route, name in SHOT_ROUTES:
-            page.goto(BASE + route, wait_until="load")
-            page.evaluate("document.fonts.ready")
-            page.wait_for_timeout(200)
+            goto_settled(page, route)
             total_h = page.evaluate("document.body.scrollHeight")
             for pos in range(0, total_h, 900):
                 page.evaluate(f"window.scrollTo(0, {pos})")
-                page.wait_for_timeout(80)
+                page.wait_for_timeout(60)
             page.evaluate("window.scrollTo(0, 0)")
-            page.wait_for_timeout(250)
+            page.wait_for_timeout(200)
             page.screenshot(path=str(OUT_SHOTS / f"{name}-desktop-1440.png"), full_page=True)
             if name == "home":
                 page.screenshot(path=str(OUT_SHOTS / "home-hero-1440.png"), full_page=False)
 
-        # Tablet 1024x768 & Mobile 390x844 responsiveness + mobile menu
+        # 11. Tablet 1024x768 & Mobile 390x844
         for vw, vh, label in [(1024, 768, "tablet-1024"), (390, 844, "mobile-390")]:
             page.set_viewport_size({"width": vw, "height": vh})
             for route, name in [("/", "home"), ("/services", "services"), ("/results", "results"), ("/about", "about"), ("/pricing", "pricing"), ("/blog", "blog")]:
-                page.goto(BASE + route, wait_until="load")
-                page.wait_for_timeout(150)
+                goto_settled(page, route)
                 ov = page.evaluate("document.documentElement.scrollWidth > window.innerWidth")
                 if ov:
                     overflow_issues.append(f"{label}:{route}")
                 if name == "home":
                     page.screenshot(path=str(OUT_SHOTS / f"home-{label}.png"), full_page=True)
             if label == "mobile-390":
-                page.goto(BASE + "/", wait_until="load")
+                goto_settled(page, "/")
                 page.locator(".tm-header-burger").click()
                 menu_open = page.locator(".tm-mobile-drawer").is_visible()
                 page.keyboard.press("Escape")
