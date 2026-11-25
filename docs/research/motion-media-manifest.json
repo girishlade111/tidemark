@@ -1,0 +1,68 @@
+[
+  {
+    "id": "hero-sequence",
+    "page": "/",
+    "target": "Hero H1, audit prompt, dashboard",
+    "sourceType": "CSS + React",
+    "trigger": "Page load",
+    "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "videoPresent": false
+  },
+  {
+    "id": "section-reveal",
+    "page": "all",
+    "target": "Section cards & headings",
+    "sourceType": "GSAP ScrollTrigger",
+    "trigger": "Scroll into view",
+    "easing": "power3.out",
+    "durationMs": 600
+  },
+  {
+    "id": "results-carousel",
+    "page": "/, /results",
+    "target": "FeaturedResultCarousel",
+    "sourceType": "React state + CSS transform",
+    "trigger": "Click / Arrow keys",
+    "durationMs": 400
+  },
+  {
+    "id": "pricing-toggle",
+    "page": "/, /pricing",
+    "target": "PricingSection",
+    "sourceType": "React state + CSS transition",
+    "trigger": "Click Monthly/Quarterly",
+    "durationMs": 200
+  },
+  {
+    "id": "faq-accordion",
+    "page": "/, /services, /pricing",
+    "target": "FAQSection",
+    "sourceType": "CSS grid-template-rows",
+    "trigger": "Click question",
+    "durationMs": 400
+  },
+  {
+    "id": "team-card-bio",
+    "page": "/about",
+    "target": "TeamCard overlay",
+    "sourceType": "CSS opacity transition",
+    "trigger": "Hover",
+    "durationMs": 200
+  },
+  {
+    "id": "testimonial-switch",
+    "page": "/, /results, /about",
+    "target": "TestimonialSection",
+    "sourceType": "React state + CSS transition",
+    "trigger": "Avatar click",
+    "durationMs": 200
+  },
+  {
+    "id": "cta-prompt-rotate",
+    "page": "/, CTA",
+    "target": "HomeHero & FinalCloudCTA",
+    "sourceType": "React interval",
+    "trigger": "Auto (pauses on input)",
+    "durationMs": 3400
+  }
+]

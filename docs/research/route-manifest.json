@@ -1,0 +1,425 @@
+[
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io",
+    "localRoute": "/",
+    "pageTitle": "Tidemark",
+    "pageType": "static",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/404",
+    "localRoute": "/404",
+    "pageTitle": "404 - Tidemark",
+    "pageType": "utility",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/about",
+    "localRoute": "/about",
+    "pageTitle": "About - Tidemark",
+    "pageType": "static",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/blog",
+    "localRoute": "/blog",
+    "pageTitle": "Blog - Tidemark",
+    "pageType": "static",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/blog/creative-testing-system",
+    "localRoute": "/blog/creative-testing-system",
+    "pageTitle": "The creative testing system behind 30 Meta ads a month - Tidemark",
+    "pageType": "blog-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/blog/fewer-google-ads-campaigns",
+    "localRoute": "/blog/fewer-google-ads-campaigns",
+    "pageTitle": "Why your Google Ads account needs fewer campaigns, not more - Tidemark",
+    "pageType": "blog-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/blog/five-email-flows",
+    "localRoute": "/blog/five-email-flows",
+    "pageTitle": "Five email flows every ecommerce brand should run - Tidemark",
+    "pageType": "blog-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/blog/northwind-organic-search",
+    "localRoute": "/blog/northwind-organic-search",
+    "pageTitle": "How Northwind made organic search its biggest revenue channel - Tidemark",
+    "pageType": "blog-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/blog/one-page-cfo-report",
+    "localRoute": "/blog/one-page-cfo-report",
+    "pageTitle": "The one page report your CFO will actually read - Tidemark",
+    "pageType": "blog-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/blog/tiktok-for-b2b",
+    "localRoute": "/blog/tiktok-for-b2b",
+    "pageTitle": "TikTok for B2B: what worked in our last 12 tests - Tidemark",
+    "pageType": "blog-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/blog/topic-map-buying-intent",
+    "localRoute": "/blog/topic-map-buying-intent",
+    "pageTitle": "How to build a topic map that ranks for buying intent - Tidemark",
+    "pageType": "blog-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/careers",
+    "localRoute": "/careers",
+    "pageTitle": "Careers - Tidemark",
+    "pageType": "static",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/careers/client-partner",
+    "localRoute": "/careers/client-partner",
+    "pageTitle": "Client Partner - Tidemark",
+    "pageType": "job-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/careers/content-editor",
+    "localRoute": "/careers/content-editor",
+    "pageTitle": "Content Editor - Tidemark",
+    "pageType": "job-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/careers/growth-analyst",
+    "localRoute": "/careers/growth-analyst",
+    "pageTitle": "Growth Analyst - Tidemark",
+    "pageType": "job-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/careers/paid-social-lead",
+    "localRoute": "/careers/paid-social-lead",
+    "pageTitle": "Paid Social Lead - Tidemark",
+    "pageType": "job-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/careers/senior-ppc-manager",
+    "localRoute": "/careers/senior-ppc-manager",
+    "pageTitle": "Senior PPC Manager - Tidemark",
+    "pageType": "job-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/careers/seo-strategist",
+    "localRoute": "/careers/seo-strategist",
+    "pageTitle": "SEO Strategist - Tidemark",
+    "pageType": "job-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/case-studies/fieldbox",
+    "localRoute": "/case-studies/fieldbox",
+    "pageTitle": "Fieldbox - Tidemark",
+    "pageType": "case-study-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/case-studies/halden-health",
+    "localRoute": "/case-studies/halden-health",
+    "pageTitle": "Halden Health - Tidemark",
+    "pageType": "case-study-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/case-studies/lumi-skin",
+    "localRoute": "/case-studies/lumi-skin",
+    "pageTitle": "Lumi Skin - Tidemark",
+    "pageType": "case-study-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/case-studies/maison-rose",
+    "localRoute": "/case-studies/maison-rose",
+    "pageTitle": "Maison Rose - Tidemark",
+    "pageType": "case-study-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/case-studies/northrun",
+    "localRoute": "/case-studies/northrun",
+    "pageTitle": "Northrun - Tidemark",
+    "pageType": "case-study-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/case-studies/northwind-coffee",
+    "localRoute": "/case-studies/northwind-coffee",
+    "pageTitle": "Northwind Coffee - Tidemark",
+    "pageType": "case-study-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/case-studies/oakline",
+    "localRoute": "/case-studies/oakline",
+    "pageTitle": "Oakline - Tidemark",
+    "pageType": "case-study-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/changelog",
+    "localRoute": "/changelog",
+    "pageTitle": "Changelog - Tidemark",
+    "pageType": "utility",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/contact",
+    "localRoute": "/contact",
+    "pageTitle": "Contact - Tidemark",
+    "pageType": "static",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/instructions",
+    "localRoute": "/instructions",
+    "pageTitle": "Instructions - Tidemark",
+    "pageType": "utility",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/licenses",
+    "localRoute": "/licenses",
+    "pageTitle": "Licenses - Tidemark",
+    "pageType": "utility",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/pricing",
+    "localRoute": "/pricing",
+    "pageTitle": "Pricing - Tidemark",
+    "pageType": "static",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/privacy",
+    "localRoute": "/privacy",
+    "pageTitle": "Privacy Policy - Tidemark",
+    "pageType": "utility",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/results",
+    "localRoute": "/results",
+    "pageTitle": "Results - Tidemark",
+    "pageType": "static",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/services",
+    "localRoute": "/services",
+    "pageTitle": "Services - Tidemark",
+    "pageType": "static",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/services/content-and-creative",
+    "localRoute": "/services/content-and-creative",
+    "pageTitle": "Content and creative - Tidemark",
+    "pageType": "service-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/services/lifecycle-and-cro",
+    "localRoute": "/services/lifecycle-and-cro",
+    "pageTitle": "Lifecycle and CRO - Tidemark",
+    "pageType": "service-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/services/paid-search",
+    "localRoute": "/services/paid-search",
+    "pageTitle": "Paid search - Tidemark",
+    "pageType": "service-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/services/paid-social",
+    "localRoute": "/services/paid-social",
+    "pageTitle": "Paid social - Tidemark",
+    "pageType": "service-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/services/seo-and-content",
+    "localRoute": "/services/seo-and-content",
+    "pageTitle": "SEO and content - Tidemark",
+    "pageType": "service-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/style-guide",
+    "localRoute": "/style-guide",
+    "pageTitle": "Style Guide - Tidemark",
+    "pageType": "utility",
+    "hasForm": false,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/team/aisha-malik",
+    "localRoute": "/team/aisha-malik",
+    "pageTitle": "Aisha Malik - Tidemark",
+    "pageType": "team-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/team/clara-benet",
+    "localRoute": "/team/clara-benet",
+    "pageTitle": "Clara Benet - Tidemark",
+    "pageType": "team-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/team/daniel-okafor",
+    "localRoute": "/team/daniel-okafor",
+    "pageTitle": "Daniel Okafor - Tidemark",
+    "pageType": "team-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/team/elena-ruiz",
+    "localRoute": "/team/elena-ruiz",
+    "pageTitle": "Elena Ruiz - Tidemark",
+    "pageType": "team-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/team/mei-tanaka",
+    "localRoute": "/team/mei-tanaka",
+    "pageTitle": "Mei Tanaka - Tidemark",
+    "pageType": "team-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/team/priya-shah",
+    "localRoute": "/team/priya-shah",
+    "pageTitle": "Priya Shah - Tidemark",
+    "pageType": "team-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/team/tom-hale",
+    "localRoute": "/team/tom-hale",
+    "pageTitle": "Tom Hale - Tidemark",
+    "pageType": "team-detail",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  },
+  {
+    "referenceUrl": "https://tidemark-template.webflow.io/terms",
+    "localRoute": "/terms",
+    "pageTitle": "Terms of Service - Tidemark",
+    "pageType": "utility",
+    "hasForm": true,
+    "hasVideo": false,
+    "inspectionStatus": "verified"
+  }
+]
