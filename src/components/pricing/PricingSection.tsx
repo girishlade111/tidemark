@@ -77,12 +77,22 @@ export function PricingSection({ showTable = true }: PricingSectionProps) {
                   className={`tm-plan-card${plan.featuredSky ? ' is-featured-sky' : ''}`}
                 >
                   {plan.featuredSky && (
-                    <img
-                      src="/assets/images/sky/sky-card.webp"
-                      alt=""
-                      className="tm-plan-sky-bg"
-                      loading="lazy"
-                    />
+                    <>
+                      <img
+                        src="/assets/images/sky/sky-inner-hero.webp"
+                        alt=""
+                        className="tm-plan-sky-bg"
+                        loading="lazy"
+                      />
+                      <div
+                        style={{
+                          position: 'absolute',
+                          inset: 0,
+                          background: 'linear-gradient(180deg, rgba(10, 61, 154, 0.42) 0%, rgba(28, 84, 224, 0.28) 100%)',
+                          pointerEvents: 'none',
+                        }}
+                      />
+                    </>
                   )}
 
                   <div className="tm-plan-inner">

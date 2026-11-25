@@ -127,11 +127,12 @@ export function AboutPage() {
         <div className="container-large">
           <div className="sky-panel tm-about-stats-banner">
             <img
-              src="/assets/images/sky/sky-cta.webp"
+              src="/assets/images/sky/sky-inner-hero.webp"
               alt=""
               className="sky-panel-bg"
               loading="lazy"
             />
+            <div className="sky-panel-overlay-top" style={{ background: 'linear-gradient(180deg, rgba(10, 61, 154, 0.52) 0%, rgba(28, 84, 224, 0.38) 100%)' }} />
             <div className="tm-about-stats-inner">
               <div className="tm-about-stats-eyebrow">Tidemark in numbers</div>
               <div className="tm-four-col-grid">
