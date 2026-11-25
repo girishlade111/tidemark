@@ -1,0 +1,119 @@
+[
+  {
+    "page": "home-hero-1440.png",
+    "refHeight": 900,
+    "impHeight": 900,
+    "heightDelta": 0,
+    "comparedRegion": "1440x900",
+    "diffPixels": 491640,
+    "diffRatio": 37.94
+  },
+  {
+    "page": "home-desktop-1440.png",
+    "refHeight": 10719,
+    "impHeight": 9944,
+    "heightDelta": -775,
+    "comparedRegion": "1440x2400",
+    "diffPixels": 889046,
+    "diffRatio": 25.72
+  },
+  {
+    "page": "services-desktop-1440.png",
+    "refHeight": 8552,
+    "impHeight": 7460,
+    "heightDelta": -1092,
+    "comparedRegion": "1440x2400",
+    "diffPixels": 858983,
+    "diffRatio": 24.85
+  },
+  {
+    "page": "results-desktop-1440.png",
+    "refHeight": 5721,
+    "impHeight": 5061,
+    "heightDelta": -660,
+    "comparedRegion": "1440x2400",
+    "diffPixels": 851278,
+    "diffRatio": 24.63
+  },
+  {
+    "page": "about-desktop-1440.png",
+    "refHeight": 6508,
+    "impHeight": 6303,
+    "heightDelta": -205,
+    "comparedRegion": "1440x2400",
+    "diffPixels": 1015958,
+    "diffRatio": 29.4
+  },
+  {
+    "page": "pricing-desktop-1440.png",
+    "refHeight": 4182,
+    "impHeight": 3964,
+    "heightDelta": -218,
+    "comparedRegion": "1440x2400",
+    "diffPixels": 538591,
+    "diffRatio": 15.58
+  },
+  {
+    "page": "blog-desktop-1440.png",
+    "refHeight": 3216,
+    "impHeight": 2985,
+    "heightDelta": -231,
+    "comparedRegion": "1440x2400",
+    "diffPixels": 1510374,
+    "diffRatio": 43.7
+  },
+  {
+    "page": "careers-desktop-1440.png",
+    "refHeight": 5077,
+    "impHeight": 5014,
+    "heightDelta": -63,
+    "comparedRegion": "1440x2400",
+    "diffPixels": 611549,
+    "diffRatio": 17.7
+  },
+  {
+    "page": "contact-desktop-1440.png",
+    "refHeight": 2207,
+    "impHeight": 1934,
+    "heightDelta": -273,
+    "comparedRegion": "1440x1934",
+    "diffPixels": 778308,
+    "diffRatio": 27.95
+  },
+  {
+    "page": "privacy-desktop-1440.png",
+    "refHeight": 2541,
+    "impHeight": 2445,
+    "heightDelta": -96,
+    "comparedRegion": "1440x2400",
+    "diffPixels": 505901,
+    "diffRatio": 14.64
+  },
+  {
+    "page": "terms-desktop-1440.png",
+    "refHeight": 2478,
+    "impHeight": 2378,
+    "heightDelta": -100,
+    "comparedRegion": "1440x2378",
+    "diffPixels": 529563,
+    "diffRatio": 15.46
+  },
+  {
+    "page": "404-desktop-1440.png",
+    "refHeight": 1536,
+    "impHeight": 1376,
+    "heightDelta": -160,
+    "comparedRegion": "1440x1376",
+    "diffPixels": 661916,
+    "diffRatio": 33.41
+  },
+  {
+    "page": "style-guide-desktop-1440.png",
+    "refHeight": 20353,
+    "impHeight": 6448,
+    "heightDelta": -13905,
+    "comparedRegion": "1440x2400",
+    "diffPixels": 747137,
+    "diffRatio": 21.62
+  }
+]

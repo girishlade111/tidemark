@@ -1,12 +1,10 @@
 {
   "total": 66,
-  "passed": 65,
-  "failed": 1,
+  "passed": 66,
+  "failed": 0,
   "consoleErrors": [],
   "brokenImages": [],
-  "overflowIssues": [
-    "mobile-390:/blog"
-  ],
+  "overflowIssues": [],
   "results": [
     {
       "name": "Route /",
@@ -325,8 +323,8 @@
     },
     {
       "name": "Zero horizontal overflow (all tested viewports)",
-      "passed": false,
-      "detail": "issues=['mobile-390:/blog']"
+      "passed": true,
+      "detail": "issues=[]"
     },
     {
       "name": "Zero console/page errors",
